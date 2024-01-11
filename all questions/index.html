@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of Cube</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h4>Date: 15/12/2023</h4>
+    <!-- Volume of Sphere -->
+    <div class="project"><span>1.</span>
+      <button onclick="volumeOFSphare(2)">Find Volume of Sphere</button>
+      <span>Volume of Sphere : <span id="VolumeofSphereID"></span></span>
+    </div>
+    <!-- Area Of 4 Walls -->
+    <div class="project"><span>2.</span>
+      <button onclick="areaOfFourWall(5,4,3)">Find Area Of 4 Walls</button>
+      <span>Area Of 4 Walls : <span id="areaOfFourWallID"></span></span>
+    </div>
+    <!-- Area and Volume Of Cuboid -->
+    <div class="project"><span>3.</span>
+      <button onclick="areaAndVolumeOfCuboid(5,4,2)">Find Area and Volume Of Cuboid </button>
+      <span>Area Of Cuboid : <span id="areaOfCuboidID"></span></span>
+      <span>, Volume Of Cuboid : <span id="VolumeOfCuboidID"></span></span>
+    </div>
+    <!-- Area of Cube -->
+    <div class="project"><span>4.</span>
+      <button onclick="areaOfCube(5)">Find Area Of Cube</button>
+      <span>Area of Cube : <span id="areaOfCubeID"></span></span>
+    </div>
+    <!-- area Of Rectangle -->
+    <div class="project"><span>5.</span>
+      <button onclick="areaOfRectangle(5,6)">Find Area Of Rectangle</button>
+      <span>Area of Rectangle : <span id="areaOfRectangleID"></span></span>
+    </div>
+    <!-- circumference Of Circle -->
+    <div class="project"><span>6.</span>
+      <button onclick="circumferenceOfCircle(7)">Find Circumference Of Circle</button>
+      <span>Circumference Of Circle : <span id="circumferenceOfCircleID"></span></span>
+    </div>
+    <!-- area Of Triangle When Three Slides Are Given -->
+    <div class="project"><span>7.</span>
+      <button onclick="areaOfTriangleWhenThreeSlidesAreGiven(7,4,5)">Find Area Of Triangle</button>
+      <span>Area Of Triangle : <span id="areaOfTriangleID"></span></span>
+    </div>
+    <!-- Area & circumference of Circle -->
+    <div class="project"><span>8.</span>
+      <button onclick="areaAndCircumferenceOfCircle(7)">Find Area & circumference of Circle</button>
+      <span>Area of Circle : <span id="areaOfCircleID"></span></span>
+      <span>Circumference of Circle : <span id="CircumferencofCircleID"></span></span>
+    </div>
+    <!-- Convert KiloMeter to Miles -->
+    <div class="project"><span>9.</span>
+      <button onclick="kilometerConvertIntoMiles(7)">Find KiloMeter to Miles</button>
+      <span>kilometer Convert Into Miles : <span id="kilometerConvertIntoMilesID"></span></span>
+    </div>
+    <!-- Convert Meter to KiloMeter -->
+    <div class="project"><span>10.</span>
+      <button onclick="meterConvertIntoKilometer(5000)">Find Meter to KiloMeter </button>
+      <span>Meter Convert Into Kilometer : <span id="meterConvertIntoKilometerID"></span></span>
+    </div>
+    <!-- Potential Energy Of The Body  -->
+    <div class="project"><span>11.</span>
+        <button onclick="potentialEnergyOfTheBody(2,5)">Find Potential Energy </button>
+        <span>Potential Energy Of The Body : <span id="potentialEnergyOfTheBodyID"></span></span>
+    </div>
+    <!-- Premeter of Rectangle  -->
+    <div class="project"><span>12.</span>
+        <button onclick="premeterOfRectangle(2,5)">Find Premeter Of Rectangle </button>
+        <span>Premeter Of Rectangle : <span id="PremeterOfRectangleID"></span></span>
+    </div>
+    <!-- simpleInterestAndTotalAmount  -->
+    <div class="project"><span>13.</span>
+        <button onclick="simpleInterestAndTotalAmount(10000,5,12)">Find SimpleInterest And TotalAmount </button>
+        <span>Simple Interest : <span id="simpleInterestID"></span></span>
+        <span>, Total Amount : <span id="TotalAmountID"></span></span>
+    </div>
+    <!-- Convert Meter to KiloMeter -->
+    <div class="project"><span>14.</span>
+      <button onclick="kilogramConvertIntoGram(5)">Find KiloMeter to Gram </button>
+      <span>Kilogram Convert Into Gram : <span id="kilogramConvertIntoGramID"></span></span>
+    </div>
+    <!-- total Surface Area And Volume OF Sphare -->
+    <div class="project"><span>15.</span>
+        <button onclick="totalSurfaceAreaAndVolumeOFSphare(2)">Find Area and Volume of Sphere</button>
+        <span>Area of Sphere : <span id="totalSurfaceAreaAndvolumeOFSphareID"></span></span>
+        <span>volume of Sphere : <span id="totalSurfaceAreaAndVolumeOFSphareID"></span></span>
+      </div>
+    <!-- 16. total Surface Area  OF Cylinder -->
+    <div class="project"><span>16.</span>
+        <button onclick="totalSurfaceAreaOfCylinder(2,3)">Find Area of Cylinder</button>
+        <span>Area of Cylinder : <span id="totalSurfaceAreaOfCylinderID"></span></span>
+      </div>
+    <!-- 17. totalSurfaceAreaofCuboid -->
+    <div class="project"><span>17.</span>
+        <button onclick="totalSurfaceAreaOfCuboid(2,3,4)">Find Area of Cuboid</button>
+        <span>Aotal Surface Area of Cuboid : <span id="totalSurfaceAreaOfCuboidID"></span></span>
+      </div>
+    <!-- 18. areaAndPerimeterOfRectangle -->
+    <div class="project"><span>18.</span>
+        <button onclick="areaAndPerimeterOfRectangle(2,3)">Find Area and Perimeter Of Rectangle</button>
+        <span>Area Of Rectangle : <span id="AreaAndPerimeterOfRectangleID"></span></span>
+        <span>, Perimeter Of Rectangle : <span id="areaAndPerimeterOfRectangleID"></span></span>
+      </div>
+    <!-- 19. totalSurfaceAreaOFSphare -->
+    <div class="project"><span>19.</span>
+        <button onclick="totalSurfaceAreaOFSphare(3)">Find Area aOf Sphare</button>
+        <span>Area Of Sphare : <span id="totalSurfaceAreaOFSphareID"></span></span>
+      </div>
+    <!-- 20. distance -->
+    <div class="project"><span>20.</span>
+        <button onclick="distance(3,4,5)">Find distance</button>
+        <span>distance : <span id="distanceID"></span></span>
+      </div>
+    <!-- 21. totalAmount -->
+    <div class="project"><span>21.</span>
+        <button onclick="totalAmount(10000,5,12)">Find Total Amount</button>
+        <span>Total Amount : <span id="totalAmountID"></span></span>
+      </div>
+    <!-- 22. areaOfSquare -->
+    <div class="project"><span>22.</span>
+        <button onclick="AreaOfSquare(3)">Find Area Of Square</button>
+        <span>Area Of Square : <span id="AreaOfSquareID"></span></span>
+      </div>
+      <h4>Date: 11/01/2024</h4>
+    <!-- 23. SumOfFirstNNaturalNumber -->
+    <div class="project"><span>23.</span>
+        <button onclick="SumOfFirstNNaturalNumber(3)">Find </button>
+        <span>SumOfFirstNNaturalNumber : <span id="23"></span></span>
+      </div>
+    <!-- 24. SumSquareOfFirstNNaturalNumber -->
+    <div class="project"><span>24.</span>
+        <button onclick="SumSquareOfFirstNNaturalNumber(3)">Find </button>
+        <span>SumSquareOfFirstNNaturalNumber : <span id="24"></span></span>
+      </div>
+   
+    <!-- 25. TotalSurfaceAreaOfHemisphere -->
+    <div class="project"><span>25.</span>
+      <button onclick="TotalSurfaceAreaOfHemisphere(3)">Find </button>
+      <span>TotalSurfaceAreaOfHemisphere : <span id="25"></span></span>
+    </div>
+    <!-- 26. TotalSurfaceAreaOfHemisphere -->
+    <div class="project"><span>26.</span>
+      <button onclick="AreaOfCircle(7)">Find </button>
+      <span>AreaOfCircle : <span id="26"></span></span>
+    </div>
+ <!-- 27. TotalSurfaceAreaAndVolumeOfCircle -->
+    <div class="project"><span>27.</span>
+      <button onclick="TotalSurfaceAreaAndVolumeOfCircle(2,4)">Find </button>
+      <span>Area of Circle : <span id="27a"></span></span>
+      <span>volume of Circle : <span id="27v"></span></span>
+    </div>
+    
+  </body>
+</html>
+</body>
+</html>
